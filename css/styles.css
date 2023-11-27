@@ -99,12 +99,20 @@ body {
   background-color: var(--navy-blue);
   text-align: center;
   color: var(--white);
+  padding: 188px 0;
+}
+
+.hero-container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .first-section {
@@ -146,6 +154,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding: 120px 0;
 }
 
 .second-section {
@@ -224,18 +233,4 @@ body {
 .address {
   display: flex;
   gap: 40px;
-}
-
-.hero-section {
-  padding: 188px 0;
-}
-
-.header-container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.hero-title {
-  max-width: 496px;
 }
