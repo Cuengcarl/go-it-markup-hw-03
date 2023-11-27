@@ -45,6 +45,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .item-text {
@@ -59,6 +60,8 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .inside-logo {
   color: var(--span-color, #2e2f42);
@@ -71,6 +74,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--link-color, #2e2f42);
   text-decoration: none;
+  padding: 24px 0;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link-style:hover,
@@ -221,16 +230,17 @@ body {
   margin-right: 76px;
 }
 
-.list {
-  display: flex;
-  gap: 40px;
-}
-
-.link-style {
-  padding: 24px 0;
-}
-
 .address {
   display: flex;
   gap: 40px;
+}
+
+.second-container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.list li {
+  width: calc((100% - 72px) / 4);
 }
