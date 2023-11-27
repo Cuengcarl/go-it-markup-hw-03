@@ -45,7 +45,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-bottom: 8px;
 }
 
 .item-text {
@@ -60,8 +59,6 @@ body {
 }
 .list {
   list-style: none;
-  display: flex;
-  gap: 40px;
 }
 .inside-logo {
   color: var(--span-color, #2e2f42);
@@ -74,12 +71,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--link-color, #2e2f42);
   text-decoration: none;
-  padding: 24px 0;
-  display: flex;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .link-style:hover,
@@ -108,20 +99,12 @@ body {
   background-color: var(--navy-blue);
   text-align: center;
   color: var(--white);
-  padding: 188px 0;
-}
-
-.hero-container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
 }
 
 .first-section {
@@ -138,11 +121,6 @@ body {
 
 .first-section-button {
   background-color: #4d5ae5;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -163,7 +141,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding: 120px 0;
 }
 
 .second-section {
@@ -230,17 +207,16 @@ body {
   margin-right: 76px;
 }
 
-.address {
+.list {
   display: flex;
   gap: 40px;
 }
 
-.second-container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+.link-style {
+  padding: 24px 0;
 }
 
-.list li {
-  width: calc((100% - 72px) / 4);
+.address {
+  display: flex;
+  gap: 40px;
 }
